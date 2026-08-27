@@ -35,16 +35,16 @@ global.fetchJson = async (url, options = {}) => {
 
 
 const settings = {
-  name: "Piantech API",
-  description: "Piantech API is a simple and lightweight REST API built with Express.js",
-  apiSettings: { creator: "PiantechOfficial" },
-  linkWhatsapp: "https://t.me/Xskycode",
+  name: "Putz API",
+  description: "Putz API is a simple and lightweight REST API built with Express.js",
+  apiSettings: { creator: "PutzOfficial" },
+  linkWhatsapp: "https://t.me/putzpay",
   linkChannel: "https://whatsapp.com/channel/0029Vb7HGkP7j6g5lLi0JY0f", 
-  linkGithub: "https://github.com/Piantechh", 
-  linkYoutube: "https://www.youtube.com/@PiantechOfficial"
+  linkGithub: "https://github.com/rafswijdan80-cell", 
+  linkYoutube: "https://www.youtube.com/@PutzOfficial18"
 };
 
-global.apikey = ["skyy", "rz"]
+global.apikey = ["ptz"]
 
 app.use((req, res, next) => {
   const originalJson = res.json;
